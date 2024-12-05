@@ -1,8 +1,23 @@
-# React + Vite
+## Начало работы
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Установка
 
-Currently, two official plugins are available:
+```shell
+git clone https://github.com/LEXLekuhona/CarsDB.git
+cd cars-db
+yarn install
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Запуск в режиме разработки
+
+```shell
+yarn dev
+```
+
+## Стек
+
+- JavaScript, ES6, ES7
+- React 17 (FC), create vite
+- Redux, Redux Toolkit
+- bootstrap-grid.css, styled-components
+- axios
