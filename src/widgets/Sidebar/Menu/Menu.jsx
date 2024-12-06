@@ -1,8 +1,8 @@
-import { Link, NavLink} from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 import data from "../../../utils/data"
 
 function Menu() {
-	
+
 	return (
 		<>
 			<nav className="mt-2">
@@ -19,7 +19,7 @@ function Menu() {
 					{/*Справочник */}
 					<li className="nav-header">Справочники</li>
 					<li className="nav-item">
-						<NavLink to={'/tire_diameter'} className="nav-link">
+						<NavLink to={''} className="nav-link">
 							<i className="nav-icon far fa-image" />
 							<p>
 								Диаметр шин
@@ -27,13 +27,13 @@ function Menu() {
 						</NavLink>
 					</li>
 					<li className="nav-item">
-						<NavLink to={'/tire_dependencies'} className="nav-link">
+						<NavLink to={''} className="nav-link">
 							<i className="nav-icon far fa-image" />
 							<p>Связь шин</p>
 						</NavLink>
 					</li>
 					<li className="nav-item">
-						<NavLink to={'#'} className="nav-link">
+						<NavLink to={''} className="nav-link">
 							<i className="nav-icon fas fa-edit" />
 							<p>
 								Шины (метрическая)
@@ -42,21 +42,21 @@ function Menu() {
 						</NavLink>
 						<ul className="nav nav-treeview" style={{ display: 'none' }}>
 							<li className="nav-item">
-								<NavLink to={'/tire_metric_profile'} className="nav-link">
+								<Link to={''} className="nav-link">
 									<i className="far fa-circle nav-icon" />
 									<p>Профиль</p>
-								</NavLink>
+								</Link>
 							</li>
 							<li className="nav-item">
-								<NavLink to={'/tire_metric_width'} className="nav-link">
+								<Link to={''} className="nav-link">
 									<i className="far fa-circle nav-icon" />
 									<p>Ширина</p>
-								</NavLink>
+								</Link>
 							</li>
 						</ul>
 					</li>
 					<li className="nav-item">
-						<Link to={'#'} className="nav-link">
+						<Link to={''} className="nav-link">
 							<i className="nav-icon fas fa-edit" />
 							<p>
 								Шины (дюймовая)
@@ -65,13 +65,13 @@ function Menu() {
 						</Link>
 						<ul className="nav nav-treeview" style={{ display: 'none' }}>
 							<li className="nav-item">
-								<Link to={'/tire_inch_height'} className="nav-link">
+								<Link to={''} className="nav-link">
 									<i className="far fa-circle nav-icon" />
 									<p>Высота</p>
 								</Link>
 							</li>
 							<li className="nav-item">
-								<Link to={'/tire_inch_width'} className="nav-link">
+								<Link to={''} className="nav-link">
 									<i className="far fa-circle nav-icon" />
 									<p>Ширина</p>
 								</Link>
@@ -79,46 +79,46 @@ function Menu() {
 						</ul>
 					</li>
 					<li className="nav-item">
-						<Link to={'#'} className="nav-link">
+						<NavLink to={''} className="nav-link">
 							<i className="nav-icon fas fa-edit" />
 							<p>
 								Диски
 								<i className="fas fa-angle-left right" />
 							</p>
-						</Link>
+						</NavLink>
 						<ul className="nav nav-treeview" style={{ display: 'none' }}>
 							<li className="nav-item">
-								<Link to={'/wheel_width'} className="nav-link">
+								<Link to={''} className="nav-link">
 									<i className="far fa-circle nav-icon" />
 									<p>Ширина</p>
 								</Link>
 							</li>
 							<li className="nav-item">
-								<Link to={'/wheel_diameter'} className="nav-link">
+								<Link to={''} className="nav-link">
 									<i className="far fa-circle nav-icon" />
 									<p>Диаметр</p>
 								</Link>
 							</li>
 							<li className="nav-item">
-								<Link to={'/wheel_drilling'} className="nav-link">
+								<Link to={''} className="nav-link">
 									<i className="far fa-circle nav-icon" />
 									<p>Сверловка</p>
 								</Link>
 							</li>
 							<li className="nav-item">
-								<Link to={'/wheel_departure'} className="nav-link">
+								<Link to={''} className="nav-link">
 									<i className="far fa-circle nav-icon" />
 									<p>Вылет</p>
 								</Link>
 							</li>
 							<li className="nav-item">
-								<Link to={'/wheel_ch_diameter'} className="nav-link">
+								<Link to={''} className="nav-link">
 									<i className="far fa-circle nav-icon" />
 									<p>Диаметр ЦО</p>
 								</Link>
 							</li>
 							<li className="nav-item">
-								<Link to={'/wheel_dependencies'} className="nav-link">
+								<Link to={''} className="nav-link">
 									<i className="far fa-circle nav-icon" />
 									<p>Связь</p>
 								</Link>
@@ -126,22 +126,22 @@ function Menu() {
 						</ul>
 					</li>
 					<li className="nav-item">
-						<Link to={'#'} className="nav-link">
+						<NavLink to={''} className="nav-link">
 							<i className="nav-icon fas fa-edit" />
 							<p>
 								Масла
 								<i className="fas fa-angle-left right" />
 							</p>
-						</Link>
+						</NavLink>
 						<ul className="nav nav-treeview" style={{ display: 'none' }}>
 							<li className="nav-item">
-								<Link to={'/oil_type'} className="nav-link">
+								<Link to={''} className="nav-link">
 									<i className="far fa-circle nav-icon" />
 									<p>Типы</p>
 								</Link>
 							</li>
 							<li className="nav-item">
-								<Link to={'/oil_viscosity'} className="nav-link">
+								<Link to={''} className="nav-link">
 									<i className="far fa-circle nav-icon" />
 									<p>Вязкость</p>
 								</Link>
@@ -149,42 +149,42 @@ function Menu() {
 						</ul>
 					</li>
 					<li className="nav-item">
-						<Link to={'/wipers_length'} className="nav-link">
+						<NavLink to={''} className="nav-link">
 							<i className="nav-icon far fa-image" />
 							<p>
 								Дворники
 							</p>
-						</Link>
+						</NavLink>
 					</li>
 					<li className="nav-item">
-						<Link to={'#'} className="nav-link">
+						<NavLink to={''} className="nav-link">
 							<i className="nav-icon fas fa-edit" />
 							<p>
 								Аккумуляторы
 								<i className="fas fa-angle-left right" />
 							</p>
-						</Link>
+						</NavLink>
 						<ul className="nav nav-treeview" style={{ display: 'none' }}>
 							<li className="nav-item">
-								<Link to={'/battery_capacity'} className="nav-link">
+								<Link to={''} className="nav-link">
 									<i className="far fa-circle nav-icon" />
 									<p>Емкость</p>
 								</Link>
 							</li>
 							<li className="nav-item">
-								<Link to={'/battery_starting_current'} className="nav-link">
+								<Link to={''} className="nav-link">
 									<i className="far fa-circle nav-icon" />
 									<p>Пусковой ток</p>
 								</Link>
 							</li>
 							<li className="nav-item">
-								<Link to={'/battery_dimensions'} className="nav-link">
+								<Link to={''} className="nav-link">
 									<i className="far fa-circle nav-icon" />
 									<p>Габариты</p>
 								</Link>
 							</li>
 							<li className="nav-item">
-								<Link to={'/battery_polarity'} className="nav-link">
+								<Link to={''} className="nav-link">
 									<i className="far fa-circle nav-icon" />
 									<p>Полярность</p>
 								</Link>
@@ -192,14 +192,19 @@ function Menu() {
 						</ul>
 					</li>
 					<li className="nav-item">
-						<Link to={'/year'} className="nav-link">
+						<NavLink to={''} className="nav-link">
 							<i className="nav-icon far fa-image" />
 							<p>
 								Годы
 							</p>
-						</Link>
+						</NavLink>
 					</li>
 				</ul>
+				<div className='d-flex justify-content-center'>
+					<Link to={''}>
+						<button style={{ padding: "9px 60px", marginTop: "180px" }} type="button" className="btn btn-outline-light">Выйти</button>
+					</Link>
+				</div>
 			</nav>
 		</>
 	)

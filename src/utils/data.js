@@ -1,7 +1,7 @@
 const data = [
     {
-        title: 'Все автомобили',
-        path: '/',
+        title: 'Автомобили',
+        path: '/home',
         icon: 'fa-car',
     },
     {

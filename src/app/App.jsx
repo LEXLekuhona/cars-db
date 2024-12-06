@@ -17,7 +17,7 @@ function App() {
         <Navbar />
         <Sidebar />
         <Routes>
-          <Route exact path='/' element={<ContentHeader title='Главная страница' />} />
+          <Route exact path='/home' element={<ContentHeader title='Автомобили' />} />
           <Route path='/brand' element={<ContentHeader title='Бренды' />} />
           <Route path='/model' element={<ContentHeader title='Модели' />} />
           <Route path='/generation' element={<ContentHeader title='Поколения' />} />
