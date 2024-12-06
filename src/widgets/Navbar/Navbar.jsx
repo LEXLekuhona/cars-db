@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function Navbar() {
 	return (
 		<>
@@ -6,17 +8,17 @@ function Navbar() {
 				{/* Left navbar links */}
 				<ul className="navbar-nav">
 					<li className="nav-item">
-						<a className="nav-link" data-widget="pushmenu" href="/" role="button"><i className="fas fa-bars" /></a>
+						<Link to={'/'} className="nav-link" data-widget="pushmenu"  role="button"><i className="fas fa-bars" /></Link>
 					</li>
 					<li className="nav-item d-none d-sm-inline-block">
-						<a href="/" className="nav-link">Главная страница</a>
+						<Link to={'/'} className="nav-link">Главная страница</Link>
 					</li>
 				</ul>
 				<ul className="navbar-nav ml-auto">
 					<li className="nav-item">
-						<a href="/accounts/logout/?next=/accounts/login/">
+						<Link to={'/accounts/logout/?next=/accounts/login/'}>
 							<button style={{ marginRight: 20 }} type="button" className="btn btn-outline-danger">Выйти</button>
-						</a>
+						</Link>
 					</li>
 				</ul>
 			</nav>
