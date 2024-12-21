@@ -20,4 +20,8 @@ yarn dev
 - React 17 (FC), create vite
 - Redux, Redux Toolkit
 - bootstrap-grid.css, styled-components
+<<<<<<< HEAD
 - axios
+=======
+- axios
+>>>>>>> new_front
