@@ -9,7 +9,7 @@ function Sidebar() {
 			<aside className="main-sidebar sidebar-dark-primary elevation-4">
 				{/* Brand Logo */}
 				<Link to={'/'} className="brand-link">
-					<img src="/dist/img/AdminLogo.png" alt="AdminLTE Logo" className="brand-image img-circle elevation-3" style={{ opacity: '.8' }} />
+					<img src="./dist/img/AdminLogo.png" alt="AdminLTE Logo" className="brand-image img-circle elevation-3" style={{ opacity: '.8' }} />
 					<span className="brand-text font-weight-light">Cars DB</span>
 				</Link>
 				{/* Sidebar */}

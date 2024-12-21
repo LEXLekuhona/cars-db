@@ -3,7 +3,7 @@ function Table() {
     <section className="content">
       <div className="container-fluid">
 
-        <table id="table_id" className="display">
+        <table id="table_id" className="display dataTable no-footer">
           <thead>
             <tr>
               <th>Бренд</th>
@@ -13,13 +13,14 @@ function Table() {
               <th style={{ width: '20%' }}>Действия</th>
             </tr>
           </thead>
-          <tbody><tr>
+          <tbody>
+            <tr>
             <td>Toyota</td>
             <td>Land Cruiser</td>
             <td>200 рестайлинг 2</td>
             <td>2015 - 2021</td>
-            <td>
 
+            <td>
               <div className="d-flex justify-content-center" style={{ gap: '4px' }}>
                 <button type="button" className="btn btn-outline-success">
                   <i className="nav-icon fas fa-highlighter" />
@@ -31,8 +32,8 @@ function Table() {
                   <i className="nav-icon fas fa-trash" />
                 </button>
               </div>
-              
             </td>
+            
           </tr>
           </tbody>
         </table>
