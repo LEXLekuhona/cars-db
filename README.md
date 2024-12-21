@@ -24,4 +24,4 @@ yarn dev
 - axios
 =======
 - axios
->>>>>>> new_front
+
